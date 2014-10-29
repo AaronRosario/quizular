@@ -1,0 +1,296 @@
+[
+  {
+    "_quesnumber": "1",
+    "question": "Inside which HTML element do we put the JavaScript?",
+    "choice":
+            [
+              "<js>",
+              "<javascript>",
+              "<scripting>",
+              "<script>"
+            ],
+    "answer": "<script>"
+  },
+  {
+    "_quesnumber": "2",
+    "question": "What is the correct JavaScript syntax to change the content of this element? <p id=\"demo\">This is a demonstration.</p>",
+    "choice": 
+            [
+              "document.getElementByName(\"p\").innerHTML = \"Hello World!\";",
+              "document.getElement(\"p\").innerHTML = \"Hello World!\";",
+              "document.getElementById(\"demo\").innerHTML = \"Hello World!\";"
+            ],
+    "answer": "document.getElementById(\"demo\").innerHTML = \"Hello World!\";"
+  },
+  {
+    "_quesnumber": "3",
+    "question": "Where is the correct place to insert a JavaScript?",
+    "choice": 
+        [
+          "The <body> section",
+          "The <head> section",
+          "Both the <head> section and the <body> section are correct"
+        ],
+    "answer": "Both the <head> section and the <body> section are correct"
+  },
+  {
+    "_quesnumber": "4",
+    "question": "What is the correct syntax for referring to an external script called \"xxx.js\"?",
+    "choice": 
+            [
+              "<script src=\"xxx.js\">",
+              "<script href=\"xxx.js\">",
+              "<script name=\"xxx.js\">"
+            ],
+    "answer": "<script src=\"xxx.js\">"
+  },
+  {
+    "_quesnumber": "5",
+    "question": "The external JavaScript file must contain the <script> tag.",
+    "choice":
+            [
+              "True",
+              "False"
+            ],
+    "answer": "False"
+  },
+  {
+    "_quesnumber": "6",
+    "question": "How do you write \"Hello World\" in an alert box?",
+    "choice":
+            [
+              "msgBox(\"Hello World\");",
+              "msg(\"Hello World\");",
+              "alert(\"Hello World\");",
+              "alertBox(\"Hello World\");"
+            ],
+    "answer": "alert(\"Hello World\");"
+  },
+  {
+    "_quesnumber": "7",
+    "question": "How do you create a function in JavaScript?",
+    "choice":
+            [
+              "function myFunction()",
+              "function = myFunction()",
+              "function:myFunction()",
+              "function.myfunction()"
+            ],
+    "answer": "function myFunction()"
+  },
+  {
+    "_quesnumber": "8",
+    "question": "How do you call a function named \"myFunction\"?",
+    "choice":
+            [
+              "call myFunction()",
+              "myFunction()",
+              "call function myFunction()",
+              "myFunction(call)"
+            ],
+    "answer": "myFunction()"
+  },
+  {
+    "_quesnumber": "9",
+    "question": "Which is the proper IF statement below in JavaScript?",
+    "choice": 
+            [
+              "if i = 5 then",
+              "if i == 5 then",
+              "if (i == 5)",
+              "if i = 5"
+            ],
+    "answer": "if (i == 5)"
+  },
+  {
+    "_quesnumber": "10",
+    "question": "Which is the proper way to write an IF statement below for executing some code if \"i\" is NOT equal to 5?",
+    "choice":
+            [
+              "if (i <> 5)",
+              "if i <> 5",
+              "if (i != 5)",
+              "if i =! 5 then"
+            ],
+    "answer": "if (i != 5)"
+  },
+  {
+    "_quesnumber": "11",
+    "question": "How does a WHILE loop start?",
+    "choice": 
+            [
+              "while (i <= 10)",
+              "while (i <= 10; i++)",
+              "while i = 1 to 10"
+            ],
+    "answer": "while (i <= 10)"
+  },
+  {
+    "_quesnumber": "12",
+    "question": "How does a FOR loop start?",
+    "choice":
+            [
+              "for (i = 0; i <= 5)",
+              "for (i = 0; i <= 5; i++)",
+              "for (i <= 5; i++)",
+              "for i = 1 to 5"
+            ],
+    "answer": "for (i = 0; i <= 5; i++)"
+  },
+  {
+    "_quesnumber": "13",
+    "question": "How can you add a comment in a JavaScript?",
+    "choice":
+            [
+              "<!--This is a comment-->",
+              "'This is a comment",
+              "//This is a comment"
+            ],
+    "answer": "//This is a comment"
+  },
+  {
+    "_quesnumber": "13",
+    "question": "How to insert a comment that has more than one line?",
+    "choice":
+            [
+              "How to insert a comment that has more than one line?",
+              "//This comment has more than one line//",
+              "/*This comment has more than one line*/",
+              "--This comment has more than one line--"
+            ],
+    "answer": "/*This comment has more than one line*/"
+  },
+  {
+    "_quesnumber": "14",
+    "question": "What is the correct way to write a JavaScript array?",
+    "choice":
+            [
+              "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+              "var colors = \"red\", \"green\", \"blue\"",
+              "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
+              "var colors = [\"red\", \"green\", \"blue\"]"
+            ],
+    "answer": "var colors = [\"red\", \"green\", \"blue\"]"
+  },
+  {
+    "_quesnumber": "15",
+    "question": "How do you round the number 7.25, to the nearest integer?",
+    "choice":
+            [
+              "Math.round(7.25)",
+              "round(7.25)",
+              "Math.rnd(7.25)",
+              "rnd(7.25)"
+            ],
+    "answer": "Math.round(7.25)"
+  },
+  {
+    "_quesnumber": "16",
+    "question": "How do you find the number with the highest value of x and y?",
+    "choice":
+            [
+              "Math.ceil(x, y)",
+              "top(x, y)",
+              "ceil(x, y)",
+              "Math.max(x, y)"
+            ],
+    "answer": "Math.max(x, y)"
+  },
+  {
+    "_quesnumber": "17",
+    "question": "What is the correct JavaScript syntax for opening a new window called \"w2\"?",
+    "choice": 
+            [
+              "w2 = window.new(\"http://www.w3schools.com\");",
+              "w2 = window.open(\"http://www.w3schools.com\");"
+            ],
+    "answer": "w2 = window.open(\"http://www.w3schools.com\");"
+  },
+  {
+    "_quesnumber": "18",
+    "question": "JavaScript is the same as Java.",
+    "choice":
+            [
+              "True",
+              "False"
+            ],
+    "answer": "False"
+  },
+  {
+    "_quesnumber": "19",
+    "question": "How can you detect the client's browser name?",
+    "choice": 
+            [
+              "client.navName",
+              "navigator.appName",
+              "browser.name",
+              "browser.getName()"
+            ],
+    "answer": "navigator.appName"
+  },
+  {
+    "_quesnumber": "20",
+    "question": "Which of the following is correct?",
+    "choice": 
+            [
+              "jQuery is a JavaScript Library",
+              "jQuery is a JSON Library",
+              "jQuery is an MVC framework"
+            ],
+    "answer": "jQuery is a JavaScript Library"
+  },
+  {
+    "_quesnumber": "21",
+    "question": "jQuery uses CSS selectors to select elements?",
+    "choice":
+            [
+              "True",
+              "False"
+            ],
+    "answer": "true"
+  },
+  {
+    "_quesnumber": "22",
+    "question": "Which sign does jQuery use as a shortcut for jQuery?",
+    "choice":
+            [
+              "the $ sign",
+              "the ? sign",
+              "the % sign",
+              "the ! sign"
+            ],
+    "answer": "the $ sign"
+  },
+  {
+    "_quesnumber": "23",
+    "question": "With jQuery, look at the following selector: $(\"div\"). What does it select?",
+    "choice":
+            [
+              "All div elements",
+              "The first div element",
+              "The closest div element",
+              "The div it created"
+            ],
+    "answer": "All div elements"
+  },
+  {
+    "_quesnumber": "24",
+    "question": "Is jQuery a library for client scripting or server scripting?",
+    "choice": 
+            [
+              "Server scripting",
+              "Client scripting"
+            ],
+    "answer": "Client scripting"
+  },
+  {
+    "_quesnumber": "25",
+    "question": "Is it possible to use jQuery together with AJAX?",
+    "choice": 
+            [
+              "True",
+              "False"
+            ],
+    "answer": "True"
+  }
+]

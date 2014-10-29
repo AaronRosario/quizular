@@ -1,0 +1,298 @@
+[
+  {
+    "_quesnumber": "1",
+    "question": "What does HTML stand for?",
+    "choice":
+            [
+              "Hyperlink Template Meta Library",
+              "Hypertext Markup Language",
+              "Hyper Template Meta Language",
+              "Highly Tested Meta Language"
+            ],
+    "answer": "Hypertext Markup Language"
+  },
+  {
+    "_quesnumber": "2",
+    "question": "Who is making the web standards?",
+    "choice":
+            [
+              "The World Wide Web Consortium",
+              "Microsoft",
+              "Google",
+              "Cisco Systems"
+            ],
+    "answer": "The World Wide Web Consortium"
+  },
+  {
+    "_quesnumber": "3",
+    "question": "Choose the correct HTML tag for the largest heading",
+    "choice":
+            [
+              "<heading>",
+              "<h1>",
+              "<h6>",
+              "<head>"
+            ],
+    "answer": "<h1>"
+  },
+  {
+    "_quesnumber": "4",
+    "question": "What is the correct HTML tag for inserting a line break?",
+    "choice":
+            [
+              "<break>",
+              "<lb>",
+              "<br>",
+              "<linebreak>"
+            ],
+    "answer": "<br>"
+  },
+  {
+    "_quesnumber": "5",
+    "question": "What is the preferred way for adding a background color in HTML?",
+    "choice":
+            [
+              "<background>yellow</background>",
+              "<body style=\"background-color:yellow;\">",
+              "<body background=\"yellow\">",
+              "<bg color=\"yellow\">"
+            ],
+    "answer": "<body style=\"background-color:yellow;\">"
+  },
+  {
+    "_quesnumber": "6",
+    "question": "What is the starting tag used in HTML5?",
+    "choice":
+            [
+              "<html5>",
+              "<!DOCTYPE html>",
+              "<htmlstart>",
+              "<html version=5>" 
+            ],
+    "answer": "<!DOCTYPE html>"
+  },
+  {
+    "_quesnumber": "7",
+    "question": "What is the previous version of HTML, prior to HTML5?",
+    "choice":
+            [
+              "HTML 4.01",
+              "HTML 4",
+              "HTML 4.1",
+              "HTML 4.9"
+            ],
+    "answer": "HTML 4.01"
+  },
+  {
+    "_quesnumber": "8",
+    "question": "Which HTML5 element is used to specify a footer for a document or section?",
+    "choice":
+            [
+              "<footer>",
+              "<bottom>",
+              "<section>",
+              "<foot>"
+            ],
+    "answer": "<footer>"
+  },
+  {
+    "_quesnumber": "9",
+    "question": "Which of the following elements is no longer supported in HTML5?",
+    "choice":
+            [
+              "<font>",
+              "<menu>",
+              "<ins>",
+              "<q>"
+            ],
+    "answer": "<font>"
+  },
+  {
+    "_quesnumber": "10",
+    "question": "Which of the following elements is no longer supported in HTML5?",
+    "choice":
+            [
+              "<acronym>",
+              "<abbr>",
+              "<cite>",
+              "<base>"
+            ],
+    "answer": "<acronym>"
+  },
+  {
+    "_quesnumber": "11",
+    "question": "In HTML5, onblur and onfocus are:",
+    "choice":
+            [
+              "Style attributes",
+              "Event attributes",
+              "Mouse attributes",
+              "HTML elements"
+            ],
+    "answer": "Event attributes"
+  },
+  {
+    "_quesnumber": "12",
+    "question": "What is the correct HTML5 element for playing video files?",
+    "choice":
+            [
+              "<media>",
+              "<video>",
+              "<movie>",
+              "<play>"
+            ],
+    "answer": "<video>"
+  },
+  {
+    "_quesnumber": "13",
+    "question": "What is the correct HTML5 element for playing audio files?",
+    "choice":
+              [
+                "<mp3>",
+                "<sound>",
+                "<audio>",
+                "<play>"
+              ],
+    "answer": "<audio>"
+  },
+  {
+    "_quesnumber": "14",
+    "question": "Which attribute for <script> elements is no longer required in HTML5?",
+    "choice":
+              [
+                "href",
+                "src",
+                "rel",
+                "type"
+              ],
+    "answer": "type"
+  },
+  {
+    "_quesnumber": "15",
+    "question": "In HTML5, which method is used to get the current location of a user?",
+    "choice":
+              [
+                "getCurrentPosition()",
+                "getUserPosition()",
+                "getPosition()"
+              ],
+    "answer": "getCurrentPosition()"
+  },
+  {
+    "_quesnumber": "16",
+    "question": "The new HTML5 global attribute, \"contenteditable\" is used to:",
+    "choice":
+              [
+                "Return the position of the first found occurrence of content inside a string",
+                "Update the content from the server",
+                "Specifies a context menu for an element. The menu appears when a user right-clicks on the element",
+                "Specify whether the content of an element should be editable or not"
+              ],
+    "answer": "Specify whether the content of an element should be editable or not"
+  },
+  {
+    "_quesnumber": "17",
+    "question": "In HTML5, contextmenu and spellcheck are:",
+    "choice": 
+            [
+              "HTML attributes",
+              "Style attributes",
+              "HTML elements",
+              "Event attributes"
+            ],
+    "answer": "HTML attributes"
+  },
+  {
+    "_quesnumber": "18",
+    "question": "In HTML5, you can embed SVG elements directly into an HTML page.",
+    "choice":
+            [
+              "True",
+              "False"
+            ],
+    "answer": "True"
+  },
+  {
+    "_quesnumber": "19",
+    "question": "Graphics defined by SVG is in which format?",
+    "choice":
+            [
+              "CSS",
+              "HTML",
+              "XML",
+              "SVG"
+            ],
+    "answer": "XML"
+  },
+  {
+    "_quesnumber": "20",
+    "question": "The <canvas> element in HTML5 is used to:",
+    "choice": 
+            [
+              "Draw graphics",
+              "Create draggable elements",
+              "Manipulate data in MySQL",
+              "Display database records"
+            ],
+    "answer": "Draw graphics"
+  },
+  {
+    "_quesnumber": "21",
+    "question": "Which built-in HTML5 object is used to draw on the canvas?",
+    "choice": 
+            [
+              "getContent",
+              "getContext",
+              "getGraphics",
+              "getCanvas"
+            ],
+    "answer": "getContext"
+  },
+  {
+    "_quesnumber": "22",
+    "question": "In HTML5, which attribute is used to specify that an input field must be filled out?",
+    "choice": 
+            [
+              "required",
+              "placeholder",
+              "validate",
+              "formvlaidate"
+            ],
+    "answer": "required"
+  },
+  {
+    "_quesnumber": "23",
+    "question": "Which input type defines a slider control?",
+    "choice":
+            [
+              "search",
+              "range",
+              "slider",
+              "controls"
+            ],
+    "answer": "range"
+  },
+  {
+    "_quesnumber": "24",
+    "question": "Which input type defines a week and year control (no time zone)?",
+    "choice":
+            [
+              "year",
+              "date",
+              "week"
+            ],
+    "answer": "week"
+  },
+  {
+    "_quesnumber": "25",
+    "question": "Which HTML5 element is used to display a scalar measurement within a known range?",
+    "choice":
+            [
+              "<meter>",
+              "<measure>",
+              "<gauge>",
+              "<range>"
+            ],
+    "answer": "<meter>"
+  }
+]

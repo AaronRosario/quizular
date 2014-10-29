@@ -1,0 +1,17 @@
+@font-face {
+	font-family: "FiraSans" !important;
+	src:	url(firasans-book.otf);	
+}
+body, nav {
+	font-family: "FiraSans" !important;
+	color: #ff0000;
+}
+.name {
+	background-color: #008cba;
+}
+.questionq {
+	display: none;
+}
+.questionq.activeq {
+	display: block;
+}

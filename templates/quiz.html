@@ -1,0 +1,17 @@
+<div class="questionq row" ng-repeat="question in questions" ng-class="{activeq : $index==(currentq)}">
+	<div class="large-12 columns">
+			<h3>Question #{{ $index + 1 }}</h3>
+			<p>{{ question.question }}</p>
+				<div ng-repeat="choice in question.choice">
+					<button class="active button expand" ng-click="currentnext($parent.$index, choice, question.answer)">{{ $index | getLetter }}. {{ choice }}</button><br/>
+				</div>
+	</div>
+</div>
+
+<div class="results row" ng-show="showResults" ng-controller="QuizController">
+	<div class="large-12 columns">
+		<h1>{{ resulttext.resulttext }} {{ home.name }}</h1> 
+		<h3>You scored {{ result }}%</h3>
+		<a href="#" class="button expand success">{{ verb }} again</a>
+	</div>
+</div>

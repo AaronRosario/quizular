@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html ng-app="quizular" class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Quizular</title>
+
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/foundation.css" />
+  <link href="favicon.ico" rel="icon" type="image/x-icon" />
+  <script src="js/vendor/modernizr.js"></script>
+  <link ref="stylesheet" type="text/css" href="css/app.css" />
+
+</head>
+<body>
+
+<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="active name">
+      <h1><a href="#">Quizular</a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li><a href="#">Powered by AngularJS, jQuery &amp; Foundation 5</a></li>
+      <li><a href="quizular.zip">Source</a>
+      </li>
+    </ul>
+
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li><a href="#">by Aaron Rosario</a></li>
+    </ul>
+  </section>
+</nav>
+
+<div ng-view></div>
+			
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-route.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/filters.js"></script>
+
+  <script>
+    $(document).foundation();
+    $('.name').css('background-color','#008cba');
+  </script>
+</body>
+
+</html>

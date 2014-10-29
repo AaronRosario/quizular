@@ -1,0 +1,6 @@
+.questionq {
+	display: none;
+}
+.questionq.activeq {
+	display: block;
+}

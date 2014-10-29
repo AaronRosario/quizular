@@ -1,0 +1,59 @@
+<div class="row">
+	<div class="large-12 columns">
+			<h1>Welcome to Quizular {{ home.name }}</h1>
+	</div>
+</div>
+
+<div class="row" ng-controller="HomeController">
+<form name="form">
+	<div class="large-8 columns"> 
+			<h3>Name</h3>
+			<input id="name" name="name" title="Type your name here" type="text" ng-model="home.name" ng-minlength="4" ng-maxlength="30" ng-pattern="/^[a-z A-Z]+$/" placeholder="Name" required>
+			<div ng-show="form.name.$dirty && form.name.$invalid">
+				 <label class="error">There is an error with the name entered!</label>
+				 <div ng-show="form.name.$error.required"><label class="error">Your name is required</label></div>
+				 <div ng-show="form.name.$error.minlength"><label class="error">Your name must be greater than 3 characters</label></div>
+				 <div ng-show="form.name.$error.maxlength"><label class="error">Your name cannot be greater than 30 characters</label></div>
+				 <div ng-show="form.name.$error.pattern"><label class="error">Your name must contain letters only</label></div>
+			</div>
+			<h3>E-mail Address</h3>
+			<input id="email" name="email" title="Type your e-mail address here" type="email" ng-model="home.email" ng-minlength="7" ng-maxlength="30" placeholder="E-mail Address" required>
+			<div ng-show="form.email.$dirty && form.email.$invalid">
+				 <label class="error">There is an error with the e-mail address entered!</label>
+				 <div ng-show="form.email.$error.required"><label class="error">Your email address is required</label></div>
+				 <div ng-show="form.email.$error.minlength"><label class="error">Your email address must be greater than 3 characters</label></div>
+				 <div ng-show="form.email.$error.maxlength"><label class="error">Your email address cannot be greater than 30 characters</label></div>
+				 <div ng-show="form.email.$error.email"><label class="error">Your email address must be in the a@b.com format</label></div>
+			</div>			
+			<h3>Choose the Number of Questions In Your Quiz</h3>
+			<label id="quiznum" class="error" style="display:none">Please select number of questions.</label>
+			<div class="large-6 columns">
+			<!--<input type="radio" class="active button expand questionnum" myvalue="10" ng-model="home.quesnum" onclick="setQuestionNum(this);">-->
+			<a id="5" class="button expand questionnum" myvalue="5" ng-click="setQuestionNum(5);" ng-model="home.quesnum">5 QUESTIONS</a>
+			<a id="10" class="button expand questionnum" myvalue="10" ng-click="setQuestionNum(10);" ng-model="home.quesnum">10 QUESTIONS</a>
+			</div>
+			<div class="large-6 columns">
+			<a id="15" class="button expand questionnum" myvalue="15" ng-click="setQuestionNum(15);" ng-model="home.quesnum">15 QUESTIONS</a>
+			<a id="20" class="button expand questionnum" myvalue="20" ng-click="setQuestionNum(20);" ng-model="home.quesnum">20 QUESTIONS</a>
+			</div>
+			<div class="large-12 columns">
+				<a id="25" class="button expand questionnum" myvalue="25" ng-click="setQuestionNum(25);" ng-model="home.quesnum">25 QUESTIONS</a>
+			</div>		
+	</div>
+	<div class="large-4 columns">
+		<div class="panel">
+			<h4>Let's Get Quizical</h4>
+			<p>Select The Type of Test:</p>
+			<select id="quiztype" name="quiztype" title="Please select the type of quiz to take">
+				<option value="html">HTML/CSS</option>
+				<option value="js">Javascript/jQuery</option>
+				<option value="ng" disabled>Angular</option>		
+				<option value="sql" disabled>SQL</option>	
+			</select>
+			<!--<button type="submit" id="validate" style="display:none"></button>-->
+			<button id="submit" type="submit" class="success button expand" disabled ng-disabled="form.name.$dirty && form.name.$invalid || form.email.$dirty && form.email.$invalid" ng-click="submitit()">Start Your Quiz!</button>
+			<p>Good luck on your quiz!</p>
+		</div>
+	</div>
+</form>
+</div>
